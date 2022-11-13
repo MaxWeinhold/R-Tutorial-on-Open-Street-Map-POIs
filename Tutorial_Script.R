@@ -16,6 +16,9 @@ library(sf)
 if(!require("tidyverse")) install.packages("tidyverse")
 library(tidyverse)
 
+if(!require("geosphere")) install.packages("geosphere")
+library(geosphere)#package for calculating distance using longitude and latitude
+
 #This tutorial is based on this page, but I would like to go one step further:
 #https://dominicroye.github.io/en/2018/accessing-openstreetmap-data-with-r/
 
